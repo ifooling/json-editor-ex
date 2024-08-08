@@ -50,16 +50,16 @@ const editorRight = new JSONEditor({
 // };
 
 // Handle local storage
-const currentMode = localStorage.getItem('mode') || 'light'
-if (currentMode === 'dark') {
-    if ($mode.checked) {
-        $mode.checked = false
-        toggleMode(mode)
-    }
-} else {
-    $mode.checked = true
-    toggleMode(mode)
-}
+// const currentMode = localStorage.getItem('mode') || 'light'
+// if (currentMode === 'dark') {
+//     if ($mode.checked) {
+//         $mode.checked = false
+        
+//     }
+// } else {
+//     $mode.checked = true
+//     toggleMode(mode)
+// }
 
 function toggleMode(mode) {
     if (mode === 'dark') {
