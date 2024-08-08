@@ -42,12 +42,12 @@ const editorRight = new JSONEditor({
 // document.getElementById('switch').style.display = 'inline-block'
 
 // Get toggle element and add click event
-const $mode = document.getElementById('mode')
-$mode.onclick = (event) => {
-    const mode = event.target.checked ? 'light' : 'dark'
-    toggleMode(mode)
-    localStorage.setItem('mode', mode);
-};
+// const $mode = document.getElementById('mode')
+// $mode.onclick = (event) => {
+//     const mode = event.target.checked ? 'light' : 'dark'
+//     toggleMode(mode)
+//     localStorage.setItem('mode', mode);
+// };
 
 // Handle local storage
 const currentMode = localStorage.getItem('mode') || 'light'
