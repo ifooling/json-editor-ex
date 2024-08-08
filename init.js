@@ -50,7 +50,7 @@ $mode.onclick = (event) => {
 };
 
 // Handle local storage
-const currentMode = localStorage.getItem('mode') || 'dark'
+const currentMode = localStorage.getItem('mode') || 'light'
 if (currentMode === 'dark') {
     if ($mode.checked) {
         $mode.checked = false
