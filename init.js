@@ -39,7 +39,7 @@ const editorRight = new JSONEditor({
 })
 
 // Avoid flicker
-document.getElementById('switch').style.display = 'inline-block'
+// document.getElementById('switch').style.display = 'inline-block'
 
 // Get toggle element and add click event
 const $mode = document.getElementById('mode')
